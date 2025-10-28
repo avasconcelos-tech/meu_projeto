@@ -1,0 +1,30 @@
+p{
+    font-family: 'Lobster Two', Arial, Helvetica, sans-serif;
+}
+
+.classe_link{
+    font-family: 'Lobster Two';
+    font-size: 2rem;
+}
+
+.classe_link:link{
+    color: rgb(67, 7, 67);
+}
+
+.classe_link:link{
+    color: rgb(128, 0, 105);
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:visited{
+    color: palevioletred;
+}
+
+a:hover{
+    color: rgb(122, 0, 152);
+}
+
