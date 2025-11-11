@@ -2,22 +2,40 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Exemplo Menu Horizontal</title>
+    <title>Aula 15 - Box Model</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <h1>Exemplo de Menu Horizontal</h1>
-    <p>Estilizando uma lista <ul> para parecer um menu.</p>
-
-    <nav class="menu-simples">
+    <header>
+  <nav>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
             <li><a href="#">Contato</a></li>
+            <li>
+                <a href="#">Serviços</a>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Marketing Digital</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
+    </header>
+
+    <main class="container">
+        <h2>Demonstração do Box Model</h2>
+        <div class="caixa caixa-1">
+            Caixa 1 (com border-box)
+        </div>
+        <div class="caixa caixa-2">
+            Caixa 2 (com border-box)
+        </div>
+    </main>
+   
 
 </body>
+
 </html>
+
+
